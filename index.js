@@ -15,7 +15,7 @@ const createDate = function (arr, index) {
       res.push(Date.parse(arr[i])/1000);
     }
     return res.sort().join("-").toString();
-    
+
   } else {
     let res = "";
     for (let i = 0; i < arr.length; i++) {
@@ -25,7 +25,6 @@ const createDate = function (arr, index) {
   }
         
 };
-console.log(createDate(dates, 2));
 // ! JANGAN DIMODIFIKASI
 (() => {
   // IIFE
